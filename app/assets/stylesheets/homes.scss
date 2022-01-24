@@ -14,6 +14,10 @@ header {
   background-color: #EC715F;
 }
 
+a {
+  text-decoration: none;
+}
+
 .header-group {
   display: flex;
   justify-content: space-between;
@@ -42,6 +46,10 @@ header {
   font-size: 16px;
 }
 
+.nav-list a{
+  color: #FAFAFA;
+}
+
 footer {
   width: 100%;
   height: 60px;
@@ -53,4 +61,276 @@ footer {
     color: #FAFAFA;
     text-align: center;
     line-height: 60px;
+}
+
+#mv {
+  width: 100%;
+  height: 650px;
+  background-image: url(mv.png);
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  color: #FAFAFA;
+}
+
+.mv-title {
+  font-size: 64px;
+  padding-top: 200px;
+}
+
+.mv-text {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+#portfolio {
+  background-color: #ECEFF1;
+  width: 100%;
+  padding: 90px 0;
+  text-align: center;
+  color: #000000;
+}
+
+.pf-title {
+  font-size: 32px;
+}
+
+.pf-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  margin: 8px auto 0 auto;
+}
+
+.pf-text {
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+.pf-visual-group {
+  width: 920px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+}
+
+.pf-visual {
+  width: 300px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.pf-v1 {
+  background-image: url(sketch.jpg);
+  margin-right: 10px;
+}
+
+.pf-v2 {
+  background-image: url(websuku.png);
+  margin-right: 10px;
+}
+
+.pf-v3{
+  background-image: url(write.jpg);
+}
+
+.pf-v4{
+  background-image: url(webcamp.png);
+  margin: 10px 10px 0 0;
+}
+
+.pf-v5{
+  background-image: url(talk.jpg);
+  margin: 10px 10px 0 0;
+}
+
+.pf-v6{
+  background-image: url(webcamp-mother.png);
+  margin: 10px 0 0 0;
+}
+
+#feature {
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.fe-title {
+  font-size: 32px;
+}
+
+.fe-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  margin: 8px auto 0 auto;
+}
+
+.fe-text {
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+.fe-st-group {
+  width: 980px;
+  display: flex;
+  margin: auto;
+}
+
+.fe-st {
+  width: 320px;
+  margin-right: 10px;
+}
+
+.fe-st:last-child {
+  margin: 0;
+}
+
+.fas {
+  font-size:60px;
+}
+
+.fe-st-title {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.fe-st-text {
+  font-size: 16px;
+}
+
+#profile {
+  width: 100%;
+  background-color: #ECEFF1;
+  text-align: center;
+  color: #000000;
+  padding: 90px 0;
+}
+
+.profile-title {
+  font-size: 32px;
+}
+
+.profile-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color :#EC715F;
+  margin: 8px auto 0 auto;
+}
+
+.profile-text {
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+.profile-group {
+  width: 1024px;
+  display: flex;
+}
+
+.profile-content{
+  width: 512px;
+  text-align: left;
+}
+
+.profile-vi {
+  background-image: url(my-icon);
+  background-size: cover;
+  background-position: center;
+  border-radius: 125px;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
+.profile-name {
+  font-size: 20px;
+}
+
+.profile-skill {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.profile-introduction {
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+#contact {
+  width: 100%;
+  text-align: center;
+  color: #000000;
+  padding: 90px 0;
+}
+
+.contact-title {
+  font-size: 32px;
+}
+
+.contact-title::after{
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  margin: 8px auto 0 auto;
+}
+
+.contact-text {
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+.contact-group {
+  width: 800px;
+  display: flex;
+  margin: auto;
+}
+
+.contact-leftcontent {
+  width: 130px;
+  margin: auto;
+  text-align: left;
+}
+
+.contact-rightcontent {
+ width: 170px;
+ margin: auto;
+ text-align: left;
+}
+
+.mail {
+  font-size: 20px;
+}
+
+.tel {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.contact-content-text {
+  font-size: 16px;
+  padding-top: 5px;
+}
+
+.sns {
+  font-size: 20px;
+}
+
+.sns-icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.sns-icon:last-of-type {
+  margin-right: 0px;
 }
