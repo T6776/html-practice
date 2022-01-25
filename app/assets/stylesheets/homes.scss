@@ -67,7 +67,7 @@ footer {
   width: 100%;
   height: 650px;
   background-image: url(mv.png);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   text-align: center;
   color: #FAFAFA;
@@ -193,7 +193,7 @@ footer {
 }
 
 .fas {
-  font-size:60px;
+  font-size: 60px;
 }
 
 .fe-st-title {
@@ -333,4 +333,66 @@ footer {
 
 .sns-icon:last-of-type {
   margin-right: 0px;
+}
+
+
+@media screen and (max-width:768px) {
+  header {
+    height: 50px;
+  }
+
+  .container{
+    width: 90%;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+  #mv {
+    background-image: url(code.png);
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .mv-title {
+    font-size: 40px;
+  }
+
+  .mv-text {
+    font-size: 18px;
+  }
+
+  .pf-visual-group {
+    width: 300px;
+  }
+
+  .pf-v1 {
+    background-image: url(websuku.png);
+    margin-right: 0px;
+  }
+
+  .pf-v2 {
+    background-image: url(webcamp.png);
+    margin: 10px 0;
+  }
+
+  .pf-v3 {
+    background-image: url(webcamp-mother.png);
+  }
+
+  .pf-v4 {
+    display: none;
+  }
+
+  .pf-v5 {
+    display: none;
+  }
+
+  .pf-v6 {
+    display: none;
+  }
+
 }
