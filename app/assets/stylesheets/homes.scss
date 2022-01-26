@@ -320,10 +320,13 @@ footer {
 .contact-content-text {
   font-size: 16px;
   padding-top: 5px;
+  color: #000000;
+  text-decoration: underline;
 }
 
 .sns {
   font-size: 20px;
+  padding-bottom: 5px;
 }
 
 .sns-icon {
@@ -393,6 +396,57 @@ footer {
 
   .pf-v6 {
     display: none;
+  }
+
+  .fe-st-group {
+    width: 100%;
+    display: block;
+  }
+
+  .fe-st {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .fe-st:first-child {
+    padding-top: 0px;
+  }
+
+  .fe-st-text {
+    text-align: left;
+  }
+
+  .profile-group {
+    width: 100%;
+    display: block;
+  }
+
+  .profile-content{
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile-name {
+    padding-top: 20px;
+  }
+
+  .contact-group {
+    width: 100%;
+    display: block;
+  }
+
+  .contact-leftcontent {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact-rightcontent {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sns {
+    padding-top: 20px;
   }
 
 }
